@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/in3067-inm713/restaurants#NamedPizza">
+    <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/pizza#NamedPizza"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/in3067-inm713/restaurants#hasIngredient">
+    <owl:equivalentProperty rdf:resource="http://www.co-ode.org/ontologies/pizza#hasIngredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/in3067-inm713/restaurants#isIngredientOf">
+    <owl:equivalentProperty rdf:resource="http://www.co-ode.org/ontologies/pizza#isIngredientOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/in3067-inm713/restaurants#Mushroom">
+    <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/pizza#Mushroom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/in3067-inm713/restaurants#Country">
+    <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/pizza#Country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/in3067-inm713/restaurants#Food">
+    <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/pizza#Food"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/in3067-inm713/restaurants#Pizza">
+    <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/pizza#Pizza"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/in3067-inm713/restaurants#VegetarianPizza">
+    <owl:equivalentClass rdf:resource="http://www.co-ode.org/ontologies/pizza#VegetarianPizza"/>
+  </rdf:Description>
+</rdf:RDF>
